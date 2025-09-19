@@ -1,1 +1,2 @@
-echo "tkinterdnd2\npillow" > requirements.txt
+pillow
+tkinterdnd2
