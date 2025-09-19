@@ -1,19 +1,17 @@
-# Image Converter GUI
+# Ultimate Image Converter
 
-A simple drag-and-drop based image converter built with Python, TkinterDnD2, and Pillow.
+A drag-and-drop image converter built with Python, TkinterDnD2, and Pillow.
 
-## 🔧 Requirements
-
+## Requirements
 - Python 3.7+
-- tkinterdnd2
 - Pillow
+- tkinterdnd2
 
-## 🚀 How to Run
-
+## Installation
 ```bash
 git clone https://github.com/YOUR_USERNAME/image_converter.git
 cd image_converter
-python3 -m venv venv
-source venv/bin/activate
+python -m venv venv
+venv\Scripts\activate   # On Windows
+# or: source venv/bin/activate  # On macOS/Linux
 pip install -r requirements.txt
-python image_converter.py
